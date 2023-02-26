@@ -1,0 +1,90 @@
+.login-container {
+    .login-header {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 10px;
+        margin-right: 20px;
+        p {
+            margin: 0;
+        }
+        button {
+            margin: 0 20px;
+            background-color: black;
+            border: 1px solid #d5d9d9;
+            border-radius: 8px;
+            box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+            box-sizing: border-box;
+            color: #ffffff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: 'Amazon Ember', sans-serif;
+            font-size: 13px;
+            line-height: 29px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: middle;
+            width: 80px;
+            height: 40px;
+            margin: 0 5px;
+
+            &:hover {
+                background-color: rgb(83, 82, 82);
+            }
+
+            &:focus {
+                border-color: #008296;
+                box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+                outline: 0;
+            }
+        }
+    }
+    .Title {
+        margin-top: 50px;
+        color: red;
+        font-weight: 600;
+        font-size: 36px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .wecome {
+        color: gray;
+        font-weight: 300px;
+        text-align: center;
+    }
+    .GoTo-Home {
+        text-align: start;
+        color: gray;
+        font-size: 16px;
+        margin-top: 16px;
+        cursor: pointer;
+    }
+    .pass-group {
+        position: relative;
+        .icons-eye {
+            position: absolute;
+            cursor: pointer;
+            right: 20px;
+            bottom: 32px;
+        }
+    }
+    .Spinner-Icon {
+        color: white;
+        animation: spin 1s infinite linear;
+
+    }
+
+    @keyframes spin {
+        from {
+            transform: scale(1) rotate(0deg);
+        }
+        to {
+            transform: scale(1) rotate(360deg);
+        }
+    }
+}

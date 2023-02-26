@@ -1,0 +1,49 @@
+.ManageUser-container {
+    .ManageUser-title {
+        font-size: 36px;
+        font-weight: bold;
+        padding: 20px;
+    }
+    .ManageUser-content {
+        margin: 20px;
+    }
+}
+
+.form-FileImage {
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+
+    cursor: pointer;
+    .icon-fcplus {
+        padding-right: 8px;
+        font-size: 30px;
+    }
+}
+
+.modal-new-user {
+    .img-preview {
+        border: dashed red 2px;
+        height: 150px;
+        border-radius: 6px;
+        margin: 0 10px;
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: gray;
+            cursor: pointer;
+        }
+        img {
+            height: 100%;
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
