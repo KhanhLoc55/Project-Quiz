@@ -1,0 +1,50 @@
+.detail-dashboard-container {
+    margin-top: 60px;
+
+    padding-left: 20px;
+    padding-top: 10px;
+    .breadcrumb-item {
+        font-size: 24px;
+    }
+}
+.dashboard-container {
+    padding-top: 20px;
+    padding-left: 20px;
+    .title {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .content {
+        display: flex;
+        margin-top: 20px;
+
+        .content-left {
+            width: calc(40% - 10px);
+            margin-right: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 20px;
+
+            .content-child {
+                width: 50%;
+                .card-body {
+                    padding: 40px;
+                    &:hover {
+                        background-color: #87cefa;
+                        cursor: pointer;
+                    }
+
+                    .card-text {
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+        .content-right {
+            margin-left: 10px;
+            margin-right: 10px;
+
+            width: 60%;
+        }
+    }
+}

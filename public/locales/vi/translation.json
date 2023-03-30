@@ -1,0 +1,15 @@
+{
+    "header": {
+        "NavLinkHome": "Trang chủ",
+        "NavLinkAdmin": "Quản lý",
+        "NavLinkUser": "Người dùng",
+        "NavLinkLogIn": "Đăng Nhập",
+        "NavLinkSignIn": "Đăng Ký"
+    },
+    "homepage": {
+        "headingText": "Có rất nhiều câu hỏi để bạn hỏi",
+        "TitleText": "Bạn không muốn là một người nhàm chán. Và khách hàng của bạn sẽ không trả lời. Thay vào đó hãy làm cho mọi người hài lòng",
+        "BtnSignin": "Hãy bắt đầu - câu hỏi",
+        "NavLink": "Trang Chủ"
+    }
+}

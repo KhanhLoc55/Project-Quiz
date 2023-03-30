@@ -14,10 +14,11 @@ import DetailQuizTwo from './components/User/DetailQuizTwo';
 import DetailQuizThree from './components/User/DetailQuizThree';
 import ManageQuiz from './components/User/Quiz/ManageQuiz';
 import Question from './components/User/Question/Question';
+import { Suspense } from 'react';
 
 const Layout = () => {
     return (
-        <>
+        <Suspense fallback="...is loading">
             <Routes>
                 <Route path="/" element={<App />}>
                     <Route index element={<HomePage />}></Route>
@@ -34,7 +35,6 @@ const Layout = () => {
                     <Route path="Manage-User" element={<ManageUser />} />
                     <Route path="Manage-quizzes" element={<ManageQuiz />} />
                     <Route path="Manage-question" element={<Question />} />
-
                 </Route>
                 <Route path="/Login" element={<Login />} />
                 <Route path="/Register" element={<Register />} />
@@ -51,7 +51,7 @@ const Layout = () => {
                 pauseOnHover
                 theme="dark"
             />
-        </>
+        </Suspense>
     );
 };
 export default Layout;

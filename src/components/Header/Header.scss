@@ -1,5 +1,11 @@
 .app-container {
     .header-container {
+        .navbar-brand {
+            img {
+                width: 118px;
+                height: 28px;
+            }
+        }
         .navbar {
             z-index: 10;
             background-color: rgba(0, 0, 0, 0) !important;
@@ -44,7 +50,7 @@
                 outline: 0;
             }
         }
-        
+
         .btn-Signin {
             background-color: black;
             border: 1px solid #d5d9d9;

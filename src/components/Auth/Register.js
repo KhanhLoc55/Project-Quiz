@@ -21,7 +21,9 @@ const Register = () => {
                 <button onClick={() => navigate('/Login')}>Log In</button>
 
                 <span>
-                    <a href="https://www.behance.net/anhlamot55">help you please?</a>
+                    <a href="https://www.behance.net/anhlamot55" target="_blank">
+                        help you please?
+                    </a>
                 </span>
             </div>
             <div className="Title col-4 mx-auto">Abest - Khánh Lộc</div>
@@ -35,7 +37,10 @@ const Register = () => {
 
                 <Form.Group className="mb-3 pass-group" controlId="formBasicPassword">
                     <Form.Label>Password</Form.Label>
-                    <Form.Control type={isShowPassWord ? 'text' : 'password'} placeholder="Password" />
+                    <Form.Control
+                        type={isShowPassWord ? 'text' : 'password'}
+                        placeholder="Password"
+                    />
                     {isShowPassWord ? (
                         <span className="icons-eye" onClick={() => setIsShowPassWord(false)}>
                             <VscEye />
@@ -53,7 +58,12 @@ const Register = () => {
                     <Form.Control type="email" placeholder="Enter email" />
                     <Form.Text className="text-muted">^.^!</Form.Text>
                 </Form.Group>
-                <Button variant="primary" size="lg" className="col-12" onClick={() => handleLogin()}>
+                <Button
+                    variant="primary"
+                    size="lg"
+                    className="col-12"
+                    onClick={() => handleLogin()}
+                >
                     &#60;&#60; Hỏi Log-In Đi Nè
                 </Button>
             </Form>

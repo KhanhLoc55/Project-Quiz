@@ -28,7 +28,9 @@ const Login = () => {
                 <button onClick={() => navigate('/Register')}>Sign In</button>
 
                 <span>
-                    <a href="https://www.behance.net/anhlamot55">help you please?</a>
+                    <a href="https://www.behance.net/anhlamot55" target="_blank">
+                        help you please?
+                    </a>
                 </span>
             </div>
             <div className="Title col-4 mx-auto">Abest-KhanhLoc</div>
@@ -42,7 +44,10 @@ const Login = () => {
 
                 <Form.Group className="mb-3 pass-group" controlId="formBasicPassword">
                     <Form.Label>Password</Form.Label>
-                    <Form.Control type={isShowPassWord ? 'text' : 'password'} placeholder="Password" />
+                    <Form.Control
+                        type={isShowPassWord ? 'text' : 'password'}
+                        placeholder="Password"
+                    />
                     {isShowPassWord ? (
                         <span className="icons-eye" onClick={() => setIsShowPassWord(false)}>
                             <VscEye />
@@ -54,8 +59,13 @@ const Login = () => {
                     )}
                     <Form.Text className="text-muted">Forgot password?</Form.Text>
                 </Form.Group>
-                <Button variant="primary" size="lg" className="col-12" onClick={() => handleLogin()}>
-                    <ImSpinner9 className='Spinner-Icon'/>
+                <Button
+                    variant="primary"
+                    size="lg"
+                    className="col-12"
+                    onClick={() => handleLogin()}
+                >
+                    <ImSpinner9 className="Spinner-Icon" />
                     <span> Hỏi T Đi Nè</span>
                 </Button>
             </Form>

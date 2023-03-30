@@ -1,0 +1,15 @@
+{
+    "header": {
+        "NavLinkHome": "Home",
+        "NavLinkAdmin": "Admin",
+        "NavLinkUser": "User",
+        "NavLinkLogIn": "Log in",
+        "NavLinkSignIn": "Sign in"
+
+    },
+    "homepage": {
+        "headingText": "There's a better way to ask",
+        "TitleText": "You don't want to make a boring form. And your audience won't answer one. Create a typeform instead—and make everyone happy.",
+        "BtnSignin": "Get started - Quiz"
+    }
+}
